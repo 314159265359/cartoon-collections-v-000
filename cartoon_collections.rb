@@ -58,6 +58,7 @@ puts cats_only
 
 famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
 is_there = famous_cats.include? ("Maru")
+puts is_there
 
 
 #end
