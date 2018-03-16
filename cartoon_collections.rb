@@ -49,4 +49,12 @@ find_num = fodds_and_evens.find  do |x|
   x.odd?
 end
 puts find_num
+
+cats_and_dogs = ["cat", "cat", "dog", "cat", "dog", "dog"]
+cats_only = cats_and_dogs.delete_if do |pet|
+  pet == "dog"
+end
+puts cats_only
+
+
 end
