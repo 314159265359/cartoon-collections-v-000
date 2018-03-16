@@ -61,8 +61,9 @@ is_there = famous_cats.include? ("Maru")
 puts is_there
 
 quiet_and_loud = ["hi", "HI", "shhh", "WHAT?!"]
-quiet_and_loud.any? do |word|
+well = quiet_and_loud.any? do |word|
   word == word.upcase
 end
+puts well
 
 #end
