@@ -35,5 +35,5 @@ puts lunch_menu
 
 
 nums = [1, 2, 3, 4]
-nums.collect {|n| n*n}
-puts nums
+new_array = nums.collect {|n| n*n}
+puts new_array
