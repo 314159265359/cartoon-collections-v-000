@@ -33,11 +33,10 @@ lunch_menu.each do |item|
 end
 puts lunch_menu
 
-
+def quiz
 nums = [1, 2, 3, 4]
 new_array = nums.collect {|n| n*n}
 puts new_array
-
 
 odds_and_evens = [1, 3, 2, 18, 5, 10, 24]
 even_array = odds_and_evens.select do |n|
@@ -50,3 +49,4 @@ find_num = fodds_and_evens.find  do |x|
   x.odd?
 end
 puts find_num
+end
