@@ -46,7 +46,7 @@ end
 puts even_array
 
 fodds_and_evens = [2, 3, 2, 18, 5, 10, 24]
-find_array = fodds_and_evens.find  do |x|
+find_num = fodds_and_evens.find  do |x|
   x.odd?
 end
-puts fodds_and_evens
+puts find_num
