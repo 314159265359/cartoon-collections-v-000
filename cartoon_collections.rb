@@ -56,5 +56,8 @@ cats_only = cats_and_dogs.delete_if do |pet|
 end
 puts cats_only
 
+famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
+is_there = famous_cats.include? ("Maru")
+
 
 #end
