@@ -33,7 +33,7 @@ lunch_menu.each do |item|
 end
 puts lunch_menu
 
-def quiz
+#def quiz
 nums = [1, 2, 3, 4]
 new_array = nums.collect {|n| n*n}
 puts new_array
@@ -57,4 +57,4 @@ end
 puts cats_only
 
 
-end
+#end
