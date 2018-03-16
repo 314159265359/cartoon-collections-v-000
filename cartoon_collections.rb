@@ -38,8 +38,9 @@ nums = [1, 2, 3, 4]
 new_array = nums.collect {|n| n*n}
 puts new_array
 
+
 odds_and_evens = [1, 3, 2, 18, 5, 10, 24]
-even_array == odds_and_evens.select do |n|
+even_array = odds_and_evens.select do |n|
   n.even?
 end
 puts even_array
