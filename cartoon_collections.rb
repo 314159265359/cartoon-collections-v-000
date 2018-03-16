@@ -32,3 +32,8 @@ lunch_menu.each do |item|
   item << "!"
 end
 puts lunch_menu
+
+
+nums = [1, 2, 3, 4]
+nums.collect {|n| n*n}
+puts nums
